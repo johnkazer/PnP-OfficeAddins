@@ -11,9 +11,9 @@ import * as msal from 'msal';
 
     const config: msal.Configuration = {
       auth: {
-          clientId: 'fc19440a-334e-471e-af53-a1c1f53c9226',
-          redirectUri: 'https://localhost:3000/logoutcomplete/logoutcomplete.html', 
-          postLogoutRedirectUri: 'https://localhost:3000/logoutcomplete/logoutcomplete.html'
+          clientId: 'd2dbd3e1-9f0f-44ef-a975-a3f4cab6e4ff',
+          redirectUri: 'https://emission-factors.azurewebsites.net/logoutcomplete/logoutcomplete.html', 
+          postLogoutRedirectUri: 'https://emission-factors.azurewebsites.net/logoutcomplete/logoutcomplete.html'
       }
     };
 

@@ -11,9 +11,9 @@ import * as msal from 'msal';
 
     const config: msal.Configuration = {
       auth: {
-        clientId: 'fc19440a-334e-471e-af53-a1c1f53c9226',
+        clientId: 'd2dbd3e1-9f0f-44ef-a975-a3f4cab6e4ff',
         authority: 'https://login.microsoftonline.com/common',
-        redirectUri: 'https://localhost:3000/login/login.html'
+        redirectUri: 'https://emission-factors.azurewebsites.net/login/login.html'
       },
       cache: {
         cacheLocation: 'localStorage', // needed to avoid "login required" error
